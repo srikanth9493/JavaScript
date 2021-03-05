@@ -1,0 +1,92 @@
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+
+  /* background-color: blue; */
+}
+.challenge1 {
+  margin: auto;
+}
+
+.container > h2 {
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+}
+
+/* .container > p {
+  border: 1px solid black;
+} */
+.button {
+  border: 2px solid black;
+  padding: 25px;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.challenge2__button {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+.challenge2 {
+  text-align: center;
+}
+#challenge2__res {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 20px -5px black;
+  margin: 20px;
+}
+.challenge2__button > button {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  outline: none;
+  color: white;
+}
+
+.challenge3__container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+img:hover {
+  box-shadow: 0 0 20px 5px blueviolet;
+}
+
+.challenge3__winner {
+  box-shadow: 0 0 20px 5px rgb(12, 252, 112);
+}
+.challenge3__looser {
+  box-shadow: 0 0 20px 5px rgb(211, 34, 34);
+}
+.challenge3__tie {
+  box-shadow: 0 0 20px 5px rgb(226, 21, 182);
+}
+
+.challege {
+  text-align: center;
+}
+.challenge4__container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.challenge4__container > button {
+  padding: 30px;
+  border-radius: 20px;
+  margin: 10px;
+  outline: none;
+}
